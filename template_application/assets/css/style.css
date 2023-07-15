@@ -1,0 +1,165 @@
+/*Google Font Setup*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.rectangle {
+  width: 1428px;
+  height: 806px;
+  position: absolute;
+  right: 0px;
+  top: 128px;
+  fill: var(--amber-100, #fef3c7);
+  background-image: url(/template_application/assets/img-icons/background/rectangle.svg);
+}
+
+:root {
+  --amber-50: #fffbeb;
+  --amber-100: #fef3c7;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+  --amber-900: #78350f;
+}
+
+.navbar {
+  padding: 24px 0;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px;
+  letter-spacing: 0.5px;
+  color: var(--amber-900);
+  padding: 12px, 8px, 12px, 8px;
+  gap: 8px;
+
+}
+
+.navbar-brand {
+  color: var(--amber-900);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.navbar-brand:hover {
+  color: var(--amber-900);
+}
+
+.signup {
+  width: 149px;
+  height: 48px;
+  border: 2px solid var(--amber-900);
+  border-radius: 8px;
+  padding: 12px;
+
+}
+
+.main {
+  padding: 80px 0;
+}
+
+.main .sneaker-f {
+  gap: 32px;
+  z-index: 9;
+}
+
+.main .wrapper {
+  gap: 80px;
+}
+
+.main .signup-m {
+  width: 179px;
+  height: 56px;
+  color: var(--amber-900);
+  border: 2px solid var(--amber-900);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.main .watch-button {
+  color: var(--amber-900);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.main .title {
+  color: var(--blue-gray-900);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+.main .sneaker {
+  z-index: 9;
+}
+.sneaker-bg{
+    position: absolute;
+    width: 367px;
+    height: 372px;
+    top:131px;
+    left: 925px;
+    border-radius:50px;
+    gap: 10px; 
+}
+
+.features {
+  padding-bottom: 37px;
+}
+
+.features span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.features .features-wrapper {
+  gap: 80px;
+}
+
+.features .img-w1,
+.img-w2,
+.img-w3 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.features .img-w1:before {
+  content: url('/template_application/assets/img-icons/icons/main/Rectangle\ 25.svg');
+  position: absolute;
+  top: 0;
+  right: -22px;
+}
+.features .img-w2:before {
+  content: url('/template_application/assets/img-icons/icons/main/Rectangle\ 26.svg');
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.features .img-w3:before {
+  content: url('/template_application/assets/img-icons/icons/main/Rectangle\ 27.svg');
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
