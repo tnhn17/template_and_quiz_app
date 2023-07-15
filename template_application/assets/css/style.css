@@ -245,19 +245,23 @@ body {
     }
     
     .main .sneaker-bg {
-      position: relative;
+      position: absolute;
       width: 80%;
-      max-width: 367px;
       margin: 0 auto;
-      top: 0;
+      top: 610px;
       left: auto;
     }
     
-    .features .properties-wrapper {
+    .features .features-wrapper {
         display: flex;
       flex-direction: column;
       align-items: center;
-      
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .features .features-wrapper span{
+        
     }
     
     .features .img-w1,
