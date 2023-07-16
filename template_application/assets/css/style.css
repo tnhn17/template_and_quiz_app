@@ -25,6 +25,8 @@ body {
   --blue-gray-200: #e2e8f0;
   --blue-gray-900: #0f172a;
   --floral-white: #fefcf2;
+  --snow: #fffef9;
+  
 }
 
 /* Navbar sectin. Üst menü kısmı*/
@@ -116,15 +118,15 @@ body {
 .main .sneaker {
     z-index: 9;
     position: relative;
-    bottom: 65px;
-    right: 40px;
+    bottom: 25px;
+    right: 30px;
 }
 .sneaker-bg{
     position: absolute;
     width: 367px;
     height: 372px;
-    top:131px;
-    left: 925px;
+    top:191px;
+    left: 1025px;
     border-radius:50px;
     gap: 10px; 
 }
@@ -263,7 +265,6 @@ body {
 /* Best section end. The best of best kısmı sonu*/
 
 /* Join Us section, Join us section başlangıcı*/
-
 .join-us-section{
     width: 100%;
     height: 816px;
@@ -312,7 +313,6 @@ body {
   line-height: 36px;
   color: var(--blue-gray-900);
 }
-
 .join-us-section .container .card .card-body .btn{
   width: 179px;
   height: 56px;
@@ -343,7 +343,6 @@ body {
   padding: 8px 16px 8px 16px;
   gap: 28px;
   background-color: #FFFFFF;
- 
 }
 .join-us-section .container .card .screen .screen-video{
   width: 520px !important; 
@@ -352,11 +351,17 @@ body {
   gap: 10px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
 }
-
-.join-us-section .container .card .screen .screen-video{
+.join-us-section .container .card .screen .screen-video img {
+  width: 100%;
+  height: 110%;
   object-fit: cover;
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .join-us-section .join-us-section-bg{
   width: 713px;
@@ -364,7 +369,55 @@ body {
   position: absolute;
   right: 170px;
 }
+/* Join us section end. Join us kısmı sonu*/
 
+/* Love us section, Love us kısmı başlangıç*/
+.love-us-section{
+  width: 100%;
+  height: 732px;
+  padding: 80px;
+  gap: 80px;
+  background-color: var(--snow);
+}
+.love-us-section .love-us-top-bar{
+  width: 1280px;
+  height: 62px;
+  gap: 48px;
+}
+.love-us-section .love-us-top-bar .top-bar-text{
+  width: 1112px;
+  height: 62px;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 61.6px;
+  color: var(--blue-gray-900);
+}
+.love-us-section .love-us-top-bar .swiper-arrows{
+  width: 120px;
+  height: 48px;
+  gap: 10px;
+}
+.love-us-section .love-us-top-bar .swiper-arrows button{
+  border: none;
+  background-color: transparent;
+}
+.love-us-section .love-us-top-bar .swiper-arrows button img{
+  border-radius: 100px;
+  color: var(--amber-900);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.love-us-section .love-us-top-bar .swiper-arrows button:hover img {
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+}
+.love-us-section .card {
+  width: 384px;
+  height: 430px;
+  border-radius: 20px;
+  border: 1px solid rgba(226, 232, 240, 1);
+}
 
 
 
