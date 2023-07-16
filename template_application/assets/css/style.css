@@ -22,6 +22,7 @@ body {
   --amber-400: #fbbf24;
   --amber-500: #f59e0b;
   --amber-900: #78350f;
+  --blue-gray-200: #e2e8f0;
   --blue-gray-900: #0f172a;
 }
 
@@ -178,6 +179,101 @@ body {
   right: -20px;
 }
 
+
+.best-section{
+    width: 100%;
+    height: 776px;
+    border: 1px 0px 1px 0px;
+    border-color: var(--blue-gray-200);
+    gap: 80px;
+    padding: 80px;
+    background-color: var(--blue-gray-900);
+    margin-top: 75px;
+}
+
+.best-section .container .title{
+    width: 1280px;
+    height: 64px;
+    gap: 80px;
+}
+.best-section .container .title h2{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 61.6px;
+    color: #FFFFFF;
+}
+.best-section .container .title button{
+    width: 233px;
+    height: 64px;
+    border-radius: 8px;
+    border: 2px solid;
+    padding: 20px 24px 20px 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.best-section .card-container{
+    margin-top: 85px;
+}
+
+.best-section .card{
+    width: 394.67px;
+    height: 472px;
+    border-radius: 10px;
+    border: 1px solid rgba(15, 23, 42, 1);
+    background-color: var(--blue-gray-900);
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 25px 50px -12px rgba(255, 255, 255, 0.25);
+
+}
+.best-section .container .card-img {
+    width: 394.67px;
+    height: 220px;
+    border-radius: 4px;
+    gap: 10px;
+}
+.best-section .card .card-title{
+    width: 330px;
+    height: 67px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    padding: 32px 32px 0px 32px;
+}
+.best-section .card .card-text{
+    width: 330.67px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-style: normal;
+}
+
+.best-section .card a{
+    width: 330.67px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
 @media (max-width:1920px){
     .navbar{
         width: 100%;
@@ -247,7 +343,9 @@ body {
     .main .sneaker-bg {
       position: absolute;
       width: 80%;
+      left: 50%;
       margin: 0 auto;
+      text-align: center;
       top: 610px;
       left: auto;
     }
@@ -260,15 +358,17 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
-    .features .features-wrapper span{
-        
+    .features .container span{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center;
+        padding-left: 35px;
     }
     
     .features .img-w1,
     .features .img-w2,
     .features .img-w3 {
       margin: 0 auto;
-
     }
-
   }
