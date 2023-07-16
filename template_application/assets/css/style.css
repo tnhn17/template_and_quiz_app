@@ -26,10 +26,10 @@ body {
   --blue-gray-900: #0f172a;
 }
 
+/* Navbar sectin. Üst menü kısmı*/
 .navbar {
   padding: 24px 0;
 }
-
 .nav-link {
   font-style: normal;
   font-weight: 500;
@@ -40,9 +40,7 @@ body {
   color: var(--amber-900);
   padding: 12px, 8px, 12px, 8px;
   gap: 8px;
-
 }
-
 .navbar-brand {
   color: var(--amber-900);
   font-size: 32px;
@@ -50,42 +48,36 @@ body {
   font-weight: 700;
   line-height: 110%;
 }
-
 .navbar-brand:hover {
   color: var(--amber-400);
   transition: 0.4s;
 }
-
 .signup {
   width: 149px;
   height: 48px;
   border: 2px solid var(--amber-900);
   border-radius: 8px;
   padding: 12px;
-
 }
+/* Navbar section end. Üst menü sonu*/
 
+/* Main section. Sneaker bölümü*/
 .main {
   padding: 80px 0;
 }
-
 .main .sneaker-f {
   gap: 32px;
   z-index: 9;
 }
-
-
 .main .container .sneaker-f span{
     color: var(--blue-gray-900);
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
 }
-
 .main .wrapper {
   gap: 80px;
 }
-
 .main .signup-m {
   width: 179px;
   height: 56px;
@@ -99,7 +91,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-
 .main .watch-button {
   width: 152px;
   height: 48px;  
@@ -114,7 +105,6 @@ body {
   Padding: 12px, 8px, 12px, 8px;
   letter-spacing: 0.5px;
 }
-
 .main .title {
   color: var(--blue-gray-900);
   font-size: 72px;
@@ -122,7 +112,6 @@ body {
   font-weight: 800;
   line-height: 79.2px;
 }
-
 .main .sneaker {
     z-index: 9;
     position: relative;
@@ -138,8 +127,6 @@ body {
     border-radius:50px;
     gap: 10px; 
 }
-
-
 .features span {
   font-size: 18px;
   padding-right: 45px;
@@ -147,11 +134,9 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
-
 .features .features-wrapper {
   gap: 80px;
 }
-
 .features .img-w1,
 .img-w2,
 .img-w3 {
@@ -159,7 +144,6 @@ body {
   width: 64px;
   height: 64px;
 }
-
 .features .img-w1:before {
   content: url('/template_application/assets/img-icons/icons/main/Rectangle\ 25.svg');
   position: absolute;
@@ -178,8 +162,9 @@ body {
   top: 0;
   right: -20px;
 }
+/* Main section end. Sneaker bölümü sonu*/
 
-
+/* Best Section - The best of best kısmı*/
 .best-section{
     width: 100%;
     height: 776px;
@@ -190,7 +175,6 @@ body {
     background-color: var(--blue-gray-900);
     margin-top: 75px;
 }
-
 .best-section .container .title{
     width: 1280px;
     height: 64px;
@@ -216,8 +200,9 @@ body {
 }
 .best-section .card-container{
     margin-top: 85px;
+    z-index: 9;
+    position: relative;
 }
-
 .best-section .card{
     width: 394.67px;
     height: 472px;
@@ -227,7 +212,6 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
     box-shadow: 0px 25px 50px -12px rgba(255, 255, 255, 0.25);
-
 }
 .best-section .container .card-img {
     width: 394.67px;
@@ -237,21 +221,26 @@ body {
 }
 .best-section .card .card-title{
     width: 330px;
-    height: 67px;
+    height: 26px;
     font-weight: 700;
+    gap: 8px;
     font-size: 24px;
     line-height: 26.4px;
-    padding: 32px 32px 0px 32px;
+    padding-left: 25px;
+    padding-top: 15px;
 }
-.best-section .card .card-text{
+.best-section .card .card-body .card-text{
     width: 330.67px;
     height: 58px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
     font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 50px
 }
-
 .best-section .card a{
     width: 330.67px;
     height: 56px;
@@ -264,6 +253,17 @@ body {
     line-height: 24px;
     letter-spacing: 0.5px;
 }
+.best-section .best-section-bg{
+  position: absolute;
+  width: 1358px;
+  height: 527px;
+  top: 1130px;
+}
+/* Best section end. The best of best kısmı sonu*/
+
+
+
+
 
 
 
