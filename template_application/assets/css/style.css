@@ -24,6 +24,7 @@ body {
   --amber-900: #78350f;
   --blue-gray-200: #e2e8f0;
   --blue-gray-900: #0f172a;
+  --floral-white: #fefcf2;
 }
 
 /* Navbar sectin. Üst menü kısmı*/
@@ -261,13 +262,108 @@ body {
 }
 /* Best section end. The best of best kısmı sonu*/
 
+/* Join Us section, Join us section başlangıcı*/
 
+.join-us-section{
+    width: 100%;
+    height: 816px;
+    background-color: var(--floral-white);
+    padding :160px, 80px, 160px, 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-us-section .container{
+  width: 1280px;
+  height: 496px;
+  border-radius: 30px;
+  padding: 80px;
+  gap: 80px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.join-us-section .container .card:first-child{
+  width: 520px;
+  height: 274px;
+  border: none;
+}
+.join-us-section .container .card .card-body .card-title {
+  width: 520px;
+  height: 62px;
+  gap: 24px;
+  font-weight: 800 ;
+  font-size: 56px;
+  line-height: 61.6px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--blue-gray-900);
+}
+.join-us-section .container .card .card-body .card-text{
+  width: 489px;
+  height: 108px;
+  margin-top: 25px;
+}
+.join-us-section .container .card .card-body .card-text div{
+  border-radius: 20px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--blue-gray-900);
+}
 
+.join-us-section .container .card .card-body .btn{
+  width: 179px;
+  height: 56px;
+  border-radius: 8px;
+  border: 2px solid rgba(120, 53, 15, 1);
+  padding: 16px;
+  color: var(--amber-900);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 28px;
+}
+.join-us-section .container .card .screen{
+  width: 520px;
+  height: 350px;
+  border-radius: 20px;
+  border: 5px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+  position: relative; 
+  overflow: hidden;
+  z-index: 9;
+}
+.join-us-section .container .card .screen .top-bar{
+  width: 520px;
+  height: 41px;
+  padding: 8px 16px 8px 16px;
+  gap: 28px;
+  background-color: #FFFFFF;
+ 
+}
+.join-us-section .container .card .screen .screen-video{
+  width: 520px !important; 
+  height: 309px !important;
+  border-radius: 4px !important;
+  gap: 10px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
 
-
-
-
-
+.join-us-section .container .card .screen .screen-video{
+  object-fit: cover;
+  
+}
+.join-us-section .join-us-section-bg{
+  width: 713px;
+  height: 625.24px;
+  position: absolute;
+  right: 170px;
+}
 
 
 
