@@ -396,33 +396,17 @@ body {
   line-height: 61.6px;
   color: var(--blue-gray-900);
 }
-.love-us-section .love-us-top-bar .swiper-arrows{
-  width: 120px;
-  height: 48px;
-  gap: 10px;
-}
-.love-us-section .love-us-top-bar .swiper-arrows button{
-  border: none;
-  background-color: transparent;
-}
-.love-us-section .love-us-top-bar .swiper-arrows button img{
-  border-radius: 100px;
-  color: var(--amber-900);
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-}
-.love-us-section .love-us-top-bar .swiper-arrows button:hover img {
-  transform: scale(1.1);
-  transition: transform 0.4s ease;
-}
 
 .love-us-section .container{
+  position: relative;
   justify-content: space-between;
   background-color: white;
 }
 
 .love-us-section .slide-container{
   overflow: hidden;
+  background-color: #FDE68A;
+  border-radius: 20px;
 }
 
 .love-us-section .card{
@@ -479,6 +463,11 @@ body {
 .swiper-button-next {
   top: 0px !important;
   right: 80px !important;
+  z-index: 1 !important;
+}
+.swiper-button-next:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
 }
 .swiper-button-next:after {
   content: '' !important;
@@ -487,10 +476,60 @@ body {
   left: auto !important;
   top: 0px !important;
   right: 150px !important;
+  z-index: 1 !important;
+}
+.swiper-button-prev:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
 }
 .swiper-button-prev:after {
   content: '' !important;
 }
+/*love-us-section end love us bölüm sonu*/
+
+/*Grow Section - Grow Section başlangıç*/
+
+.grow-section{
+  width: 100%;
+  height: 996px;
+  padding: 80px 80px 128px 80px;
+  gap: 80px;
+  background-color: var(--snow);
+}
+.grow-section .container{
+  width: 1280px;
+  height: 152px;
+  gap: 32px;
+}
+.grow-section .container .container-title{
+  width: 1280px;
+  height: 62px;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 61.6px;
+  color: var(--blue-gray-900);
+  margin-bottom: 35px;
+}
+.grow-section .container .container-body{
+  width: 1280px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: var(--blue-gray-900);
+}
+
+
+
+/*Grow section end - Grow section bölüm sonu*/
+
+
+
+
+
+
+
 
 
 /* Responsive */
