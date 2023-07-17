@@ -426,12 +426,11 @@ body {
   gap: 16px;
   margin-top: 45px;
 }
+
 .love-us-section .slide-container .card:first-child{
-  position: relative;
   left: -250px;
 }
 .love-us-section .slide-container .card:last-child{
-  position: relative;
   right: -250px;
 }
 
