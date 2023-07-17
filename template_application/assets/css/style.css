@@ -4,6 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   position: relative;
+  box-sizing: border-box;
 }
 
 .rectangle {
@@ -19,10 +20,12 @@ body {
 :root {
   --amber-50: #fffbeb;
   --amber-100: #fef3c7;
+  --amber-200: #FDE68A;
   --amber-400: #fbbf24;
   --amber-500: #f59e0b;
   --amber-900: #78350f;
   --blue-gray-200: #e2e8f0;
+  --blue-gray-600: #475569;
   --blue-gray-900: #0f172a;
   --floral-white: #fefcf2;
   --snow: #fffef9;
@@ -379,7 +382,6 @@ body {
   gap: 80px;
   background-color: var(--snow);
 }
-
 .love-us-section .love-us-top-bar{
   width: 1280px;
   height: 62px;
@@ -414,30 +416,85 @@ body {
   transition: transform 0.4s ease;
 }
 
+.love-us-section .container{
+  justify-content: space-between;
+  background-color: white;
+}
 
-.love-us-section .slide-container .card{
+.love-us-section .slide-container{
+  overflow: hidden;
+}
+
+.love-us-section .card{
+  display: flex;
   width: 384px;
   height: 430px;
-  border-radius: 20px;
-  border: 1px solid rgba(226, 232, 240, 1);
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   padding: 32px;
-  gap: 16px;
-  margin-top: 45px;
+  column-gap: 16px;
+  background-color:  #ffffff;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+.love-us-section .card .card-title{
+  width: 320px;
+  height: 64px;
+  padding: 16px 0px 16px 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26.4px;
 }
 
-.love-us-section .slide-container .card:first-child{
-  left: -250px;
-}
-.love-us-section .slide-container .card:last-child{
-  right: -250px;
+.love-us-section .card .card-title img{
+  gap: 8px;
 }
 
+.love-us-section .card .profile-details{
+  width: 320px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 16px 0px 0x 0px;
+}
+
+
+.love-us-section .card .profile-details .name{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: black;
+}
+
+.love-us-section .card .profile-details .job{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: var(--blue-gray-600);
+}
+.love-us-section .card .profile-details img {
+  border-radius: 100px;
+  gap: 10px;
+  padding-right: 15px;
+}
+
+.swiper-button-next {
+  top: 0px !important;
+  right: 80px !important;
+}
+.swiper-button-next:after {
+  content: '' !important;
+}
+.swiper-button-prev {
+  left: auto !important;
+  top: 0px !important;
+  right: 150px !important;
+}
+.swiper-button-prev:after {
+  content: '' !important;
+}
 
 
 /* Responsive */
-@media (max-width:1920px){
+@media(max-width:1920px){
     .navbar{
         width: 100%;
     }
