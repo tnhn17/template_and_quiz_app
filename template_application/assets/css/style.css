@@ -379,6 +379,7 @@ body {
   gap: 80px;
   background-color: var(--snow);
 }
+
 .love-us-section .love-us-top-bar{
   width: 1280px;
   height: 62px;
@@ -412,13 +413,27 @@ body {
   transform: scale(1.1);
   transition: transform 0.4s ease;
 }
-.love-us-section .card {
+
+
+.love-us-section .slide-container .card{
   width: 384px;
   height: 430px;
   border-radius: 20px;
   border: 1px solid rgba(226, 232, 240, 1);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  gap: 16px;
+  margin-top: 45px;
 }
-
+.love-us-section .slide-container .card:first-child{
+  position: relative;
+  left: -250px;
+}
+.love-us-section .slide-container .card:last-child{
+  position: relative;
+  right: -250px;
+}
 
 
 
