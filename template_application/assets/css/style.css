@@ -26,6 +26,7 @@ body {
   --amber-900: #78350f;
   --blue-gray-200: #e2e8f0;
   --blue-gray-600: #475569;
+  --blue-gray-700: #334155;
   --blue-gray-900: #0f172a;
   --floral-white: #fefcf2;
   --snow: #fffef9;
@@ -751,6 +752,39 @@ body {
   height: 464px;
   padding: 0px 80px 0px 80px;
   background-color: var(--blue-gray-900);
+}
+.footer .first-main{
+  width: 1280px;
+  height: 368px;
+  border-bottom: 1px solid var(--blue-gray-700);
+  padding: 48px 0px 48px 0px;
+  gap: 48px;
+  color: var(--blue-gray-700);
+
+}
+.footer .first-main .container{
+  width: 284px;
+  height: 272px;
+}
+.footer .first-main .container .cont-list{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: var(--blue-gray-200);
+}
+.footer .first-main .container .cont-list .cont-list-title{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: #FFFFFF;
+}
+
+.footer .first-main .container .cont-list li{
+  width: 284px;
+  height: 46px;
+  padding: 12px 0px 12px 0px;
+  gap: 8px ;
 }
 
 
