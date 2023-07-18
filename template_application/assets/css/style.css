@@ -637,28 +637,84 @@ body {
 
 .grow-section .grow-bg{
   position: absolute;
-  width: 100%; /* Eklendi */
 }
 .grow-section .grow-bg .vec1{
-  width: 100%;
   position: absolute;
   bottom: 1px;
 }
 .grow-section .grow-bg .vec2{
-  width: 100%;
   position: absolute;
   bottom: 1px;
   
 }
 .grow-section .grow-bg .vec3{
-  width: 100%;
   position: absolute;
-  bottom: 1px;
+  bottom: -10px;
 }
 /*Grow section end - Grow section bölüm sonu*/
 
+/* Last section - Last section başlangıç*/
+.last-section {
+  width: 100%;
+  height: 717px;
+  border: 1px 0px 1px 0px;
+  padding: 80px;
+  gap: 80px;
+  background-color: var(--amber-900);
+  position: relative;
+}
+
+.last-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.last-section .world-map {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 50%;
+}
+
+.last-section .second-image {
+  position: absolute;
+  top: 70px;
+  left: 705px;
+  transform: translateX(-50%);
+}
+.titles {
+  width: 1280px;
+  height: 176px;
+  gap: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title-top {
+  font-size: 96px;
+  font-weight: 800;
+  line-height: 105.6px;
+  color: #fff;
+}
+.title-bottom {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 61.6px;
+  color: #fff;
+}
+
+.last-section .card{
+  width: 256px;
+  height: 200px;
+  position: absolute;
+  object-fit: cover;
+}
 
 
+/* Last section end - Last section bölüm sonu*/
 
 
 
