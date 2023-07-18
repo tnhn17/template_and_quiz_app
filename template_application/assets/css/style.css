@@ -495,6 +495,7 @@ body {
   padding: 80px 80px 128px 80px;
   gap: 80px;
   background-color: var(--snow);
+  position: relative;
 }
 .grow-section .container{
   width: 1280px;
@@ -520,8 +521,140 @@ body {
   color: var(--blue-gray-900);
 }
 
+.grow-section .second-c{
+  width: 100%;
+  height: 684px;
+  background-color: var(--snow);
+}
 
+.grow-section .second-c .little-c{
+  width: 1280px;
+  height: 556px;
+  gap: 80px;
+  margin-top: 70px;
+}
 
+.grow-section .second-c .little-c .grow-menu{
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 416px;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--blue-gray-900);
+}
+.grow-section .second-c .little-c .grow-media{
+  width: 944px;
+  height: 556px;
+  gap: 10px;
+  
+  overflow: hidden;
+}
+
+.grow-section .second-c .little-c .grow-menu .grow-menu-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.grow-section .second-c .little-c .grow-menu .grow-menu-list .list-items{
+  display: flex;
+  width: 256px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px;
+  align-self: flex-start;
+  align-items: center;
+  color: var(--blue-gray-900);
+}
+.grow-section .second-c .little-c .grow-menu .grow-menu-list .list-items:first-child{
+  box-shadow: 0px 0px 4px 0px #00000012;
+  box-shadow: 0px 4px 6px -1px #0000001A;
+  color: #FFFFFF;
+}
+.grow-section .second-c .little-c .grow-menu .grow-menu-list .list-items .list-items-text{
+  text-decoration: none;
+  color: var(--blue-gray-900);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  padding: 0px 16px 0px 16px;
+  white-space: nowrap;
+}
+.grow-section .second-c .little-c .grow-media .card{
+  position: relative;
+  border: 5px solid #FFFFFF
+}
+
+.grow-section .second-c .little-c .grow-media .big-card{
+  width: 759px;
+  height: 451px;
+  border-radius: 20px;
+  gap: 10px;
+  border: 5px solid #FFFFFF;
+  background-color: #FFFFFF;
+  position: relative; 
+  overflow: hidden;
+}
+
+.grow-section .second-c .little-c .grow-media .big-card .grow-media-top-bar{
+  width: 759px;
+  height: 26px;
+  padding: 8px 16px 8px 16px;
+  gap: 28px;
+  background-color: #FFFFFF;
+ 
+}
+.grow-section .second-c .little-c .grow-media .big-card .grow-media-image{
+  width: 759px;
+  height: 410px;
+  border-radius: 4px;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.grow-section .second-c .little-c .grow-media .back-side{
+  z-index: 2;
+
+}
+.grow-section .second-c .little-c .grow-media .front-side{
+  position: absolute;
+  bottom: 133px;
+  right: 180px;
+  z-index: 3;
+}
+.grow-section .second-c .little-c .grow-media .little-card{
+  position: absolute;
+  z-index: 5;
+  right: 40px;
+  bottom: 130px;
+  object-fit: cover;
+}
+
+.grow-section .grow-bg{
+  position: absolute;
+  width: 100%; /* Eklendi */
+}
+.grow-section .grow-bg .vec1{
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+}
+.grow-section .grow-bg .vec2{
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+  
+}
+.grow-section .grow-bg .vec3{
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+}
 /*Grow section end - Grow section bölüm sonu*/
 
 
