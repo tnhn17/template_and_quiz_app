@@ -786,6 +786,14 @@ body {
   padding: 12px 0px 12px 0px;
   gap: 8px ;
 }
+.footer .first-main .container .cont-list .social{
+  height: 24px;
+  gap: 16px;
+  margin-top: 15px;
+}
+.footer .first-main .container .cont-list .social img{
+  padding-right: 15px;
+}
 
 
 /* Footer section end - Footer section bölüm sonu*/
