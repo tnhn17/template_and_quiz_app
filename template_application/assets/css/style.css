@@ -30,9 +30,7 @@ body {
   --blue-gray-900: #0f172a;
   --floral-white: #fefcf2;
   --snow: #fffef9;
-  
 }
-
 /* Navbar sectin. Üst menü kısmı*/
 .navbar {
   padding: 24px 0;
@@ -122,15 +120,15 @@ body {
 .main .sneaker {
     z-index: 9;
     position: relative;
-    bottom: 25px;
+    bottom: 65px;
     right: 30px;
 }
 .sneaker-bg{
     position: absolute;
     width: 367px;
     height: 372px;
-    top:191px;
-    left: 1025px;
+    top: 161px;
+    left: 955px;
     border-radius:50px;
     gap: 10px; 
 }
@@ -169,7 +167,7 @@ body {
   top: 0;
   right: -20px;
 }
-/* Main section end. Sneaker bölümü sonu*/
+/* Main section end. Main-Sneaker bölüm sonu*/
 
 /* Best Section - The best of best kısmı*/
 .best-section{
@@ -264,7 +262,7 @@ body {
   position: absolute;
   width: 1358px;
   height: 527px;
-  top: 1130px;
+  top: 1132px;
 }
 /* Best section end. The best of best kısmı sonu*/
 
@@ -371,7 +369,7 @@ body {
   width: 713px;
   height: 625.24px;
   position: absolute;
-  right: 170px;
+  right: 80px;
 }
 /* Join us section end. Join us kısmı sonu*/
 
@@ -397,19 +395,16 @@ body {
   line-height: 61.6px;
   color: var(--blue-gray-900);
 }
-
 .love-us-section .container{
   position: relative;
   justify-content: space-between;
   background-color: white;
 }
-
 .love-us-section .slide-container{
   overflow: hidden;
   background-color: #FDE68A;
   border-radius: 20px;
 }
-
 .love-us-section .card{
   display: flex;
   width: 384px;
@@ -428,11 +423,9 @@ body {
   font-size: 24px;
   line-height: 26.4px;
 }
-
 .love-us-section .card .card-title img{
   gap: 8px;
 }
-
 .love-us-section .card .profile-details{
   width: 320px;
   height: 80px;
@@ -440,15 +433,12 @@ body {
   align-items: center;
   padding: 16px 0px 0x 0px;
 }
-
-
 .love-us-section .card .profile-details .name{
   font-weight: 400;
   font-size: 18px;
   line-height: 28.8px;
   color: black;
 }
-
 .love-us-section .card .profile-details .job{
   font-weight: 400;
   font-size: 16px;
@@ -460,7 +450,6 @@ body {
   gap: 10px;
   padding-right: 15px;
 }
-
 .swiper-button-next {
   top: 0px !important;
   right: 80px !important;
@@ -489,7 +478,6 @@ body {
 /*love-us-section end love us bölüm sonu*/
 
 /*Grow Section - Grow Section başlangıç*/
-
 .grow-section{
   width: 100%;
   height: 996px;
@@ -521,20 +509,17 @@ body {
   line-height: 28.8px;
   color: var(--blue-gray-900);
 }
-
 .grow-section .second-c{
   width: 100%;
   height: 684px;
   background-color: var(--snow);
 }
-
 .grow-section .second-c .little-c{
   width: 1280px;
   height: 556px;
   gap: 80px;
   margin-top: 70px;
 }
-
 .grow-section .second-c .little-c .grow-menu{
   display: flex;
   flex-direction: column;
@@ -549,10 +534,8 @@ body {
   width: 944px;
   height: 556px;
   gap: 10px;
-  
   overflow: hidden;
 }
-
 .grow-section .second-c .little-c .grow-menu .grow-menu-list{
   list-style-type: none;
   padding: 0;
@@ -590,7 +573,6 @@ body {
   position: relative;
   border: 5px solid #FFFFFF
 }
-
 .grow-section .second-c .little-c .grow-media .big-card{
   width: 759px;
   height: 451px;
@@ -601,14 +583,12 @@ body {
   position: relative; 
   overflow: hidden;
 }
-
 .grow-section .second-c .little-c .grow-media .big-card .grow-media-top-bar{
   width: 759px;
   height: 26px;
   padding: 8px 16px 8px 16px;
   gap: 28px;
   background-color: #FFFFFF;
- 
 }
 .grow-section .second-c .little-c .grow-media .big-card .grow-media-image{
   width: 759px;
@@ -620,7 +600,6 @@ body {
 }
 .grow-section .second-c .little-c .grow-media .back-side{
   z-index: 2;
-
 }
 .grow-section .second-c .little-c .grow-media .front-side{
   position: absolute;
@@ -635,7 +614,6 @@ body {
   bottom: 130px;
   object-fit: cover;
 }
-
 .grow-section .grow-bg{
   position: absolute;
 }
@@ -646,7 +624,6 @@ body {
 .grow-section .grow-bg .vec2{
   position: absolute;
   bottom: 1px;
-  
 }
 .grow-section .grow-bg .vec3{
   position: absolute;
@@ -664,20 +641,17 @@ body {
   background-color: var(--amber-900);
   position: relative;
 }
-
 .last-section .container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-
 .last-section .world-map {
   max-width: 100%;
   max-height: 100%;
   opacity: 50%;
 }
-
 .last-section .second-image {
   position: absolute;
   top: 70px;
@@ -706,7 +680,6 @@ body {
   line-height: 61.6px;
   color: #fff;
 }
-
 .last-section .shoes-contain{
   width: 256px;
   height: 200px;
@@ -734,7 +707,6 @@ body {
   line-height: 15.4px;
   color: var(--blue-gray-900);
 }
-
 .last-section .shoes-contain-body .shoes-contain-img{
   position: absolute;
   left: 110px;
@@ -760,7 +732,6 @@ body {
   padding: 48px 0px 48px 0px;
   gap: 48px;
   color: var(--blue-gray-700);
-
 }
 .footer .first-main .container{
   width: 284px;
@@ -779,7 +750,6 @@ body {
   line-height: 17.6px;
   color: #FFFFFF;
 }
-
 .footer .first-main .container .cont-list li{
   width: 284px;
   height: 46px;
@@ -822,10 +792,6 @@ body {
   gap: 8px;
 }
 /* Footer section end - Footer section bölüm sonu*/
-
-
-
-
 
 /* Responsive */
 @media(max-width:1920px){
@@ -925,4 +891,89 @@ body {
     .features .img-w3 {
       margin: 0 auto;
     }
+    .best-section {
+      height: auto;
+      padding: 40px;
+      margin-top: 40px;
+    }
+  
+    .best-section .container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .best-section .container .title {
+      width: auto;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .best-section .container .title h2 {
+      font-size: 36px;
+      line-height: 40px;
+      text-align: center;
+    }
+  
+    .best-section .container .title button {
+      width: auto;
+      height: auto;
+      padding: 16px 20px;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  
+    .best-section .card-container {
+      margin-top: 60px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .best-section .card {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+  
+    .best-section .container .card-img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  
+    .best-section .card .card-title {
+      width: auto;
+      height: auto;
+      font-size: 20px;
+      line-height: 22px;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .best-section .card .card-body .card-text {
+      width: auto;
+      height: auto;
+      font-size: 16px;
+      line-height: 25.6px;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+  
+    .best-section .card a {
+      width: auto;
+      height: auto;
+      padding: 12px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  
+    .best-section .best-section-bg {
+      width: 100%;
+      height: auto;
+      top: auto;
+      bottom: 0;
+    }
+
+
   }
+  

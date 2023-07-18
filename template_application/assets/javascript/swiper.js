@@ -1,10 +1,10 @@
-var swiper = new Swiper(".slide-container", {
+var swiper = new Swiper(".slide-container", { // slide-container is the class name of the div that contains the slides
   slidesPerView: 3,
   spaceBetween: 20,
   loop: true,
-  centerSlide: "true",
-  grabCursor: "true",
-  fade:"true",
+  centerSlide: true,
+  grabCursor: true,
+  fade: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -14,7 +14,7 @@ var swiper = new Swiper(".slide-container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  breakpoints: {
+  breakpoints: { // breakpoints for responsive design
     320: {
       slidesPerView: 1,
       spaceBetween: 20,
