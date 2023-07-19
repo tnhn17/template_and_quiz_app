@@ -5,12 +5,12 @@ var swiper = new Swiper(".slide-container", { // slide-container is the class na
   centerSlide: true,
   grabCursor: true,
   fade: true,
-  pagination: {
+  pagination: { // pagination bullets
     el: ".swiper-pagination",
     clickable: true,
     dynamicBullets: true,
   },
-  navigation: {
+  navigation: { // navigation arrows
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },

@@ -17,6 +17,7 @@ body {
   background-image: url('/template_application/assets/img-icons/background/rectangle.svg');
 }
 
+/* Colors */
 :root {
   --amber-50: #fffbeb;
   --amber-100: #fef3c7;
@@ -833,8 +834,6 @@ body {
 /* Footer section end - Footer section bölüm sonu*/
 
 /* Responsive */
-
-
 @media (max-width: 900px) {
     .navbar-toggler-icon {
       background-image: url('/template_application/assets/img-icons/icons/navbar/menu-scale.png');
@@ -1096,7 +1095,6 @@ body {
       padding: 40px;
       height: auto;
       }
-      
       .grow-section .container {
       width: 100%;
       height: auto;
@@ -1104,7 +1102,6 @@ body {
       flex-direction: column;
       gap: 16px;
       }
-      
       .grow-section .container .container-title {
       width: 100%;
       font-size: 36px;
@@ -1113,7 +1110,6 @@ body {
       text-align: center;
       align-items: center;
       }
-      
       .grow-section .container .container-body {
       width: 100%;
       font-size: 16px;
@@ -1122,12 +1118,10 @@ body {
       align-items: center;
       color: var(--blue-gray-900);
       }
-      
       .grow-section .second-c {
       height: auto;
       padding-bottom: 40px;
       }
-      
       .grow-section .second-c .little-c {
       width: 100%;
       height: auto;
@@ -1136,7 +1130,6 @@ body {
       gap: 40px;
       margin-top: 40px;
       }
-      
       .grow-section .second-c .little-c .grow-menu {
       width: 100%;
       margin-top: 45px;
@@ -1145,14 +1138,12 @@ body {
       align-items: center;
       text-align: center;
       }
-      
       .grow-section .second-c .little-c .grow-menu .grow-menu-list .list-items {
       width: 100%;
       height: auto;
       text-align: center;
       align-items: center;
       }
-      
       .grow-section .second-c .little-c .grow-media {
       width: 100%;
       height: auto;
@@ -1163,41 +1154,34 @@ body {
       flex-wrap: wrap;
       align-items: flex-start;
       }
-      
       .grow-section .second-c .little-c .grow-media .big-card {
       width: 100%;
       height: auto;
       border-radius: 12px;
       }
-      
       .grow-section .second-c .little-c .grow-media .big-card .grow-media-image {
       width: 100%;
       height: 280px;
       border-radius: 4px;
       }
-      
       .grow-section .second-c .little-c .grow-media .front-side {
       position: static;
       transform: none;
       margin-top: 20px;
       margin-right: 0;
       }
-      
       .grow-section .second-c .little-c .grow-media .little-card {
       position: static;
       right: auto;
       bottom: auto;
       margin-top: 20px;
       }
-      
       .grow-section .grow-bg .vec1 {
       display: none;
       }
-      
       .grow-section .grow-bg .vec2 {
       display: none;
       }
-      
       .grow-section .grow-bg .vec3 {
       display: none;
       }
@@ -1205,33 +1189,28 @@ body {
         padding: 40px;
         height: auto;
         }
-        
         .last-section .container {
         flex-direction: column;
         gap: 40px;
         }
-        
         .last-section .world-map {
         width: 100%;
         height: auto;
         max-width: 400px;
         max-height: 400px;
         }
-        
         .last-section .second-image {
         top: auto;
         left: auto;
         transform: none;
         margin-top: 20px;
         }
-        
         .titles {
         width: 100%;
         position: static;
         transform: none;
         text-align: center;
         }
-        
         .last-section .shoes-contain {
         position: absolute;
         left: 55px;
@@ -1239,7 +1218,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         }
-        
         .last-section .shoes-contain-body {
         position: absolute;
         top: auto;
@@ -1249,14 +1227,12 @@ body {
         margin-left: auto;
         margin-right: auto;
         }
-        
         .last-section .shoes-contain-body .shoes-contain-text {
         font-size: 12px;
         line-height: 14px;
         width: 250px;
         height: 10px;
         }
-        
         .last-section .shoes-contain-body .shoes-contain-img {
         position: absolute;
         top: 45px;
@@ -1264,7 +1240,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         }
-        
         .last-section .shoes-contain-body .shoes-contain-arrow {
         position: static;
         left: auto;
@@ -1277,7 +1252,6 @@ body {
           height: auto;
           min-height: 464px;
         }
-      
         .footer .first-main {
           width: 100%;
           height: auto;
@@ -1288,34 +1262,28 @@ body {
           justify-content: center;
           align-items: flex-start;
         }
-      
         .footer .first-main .container {
           width: 100%;
           height: auto;
           margin-bottom: 24px;
           text-align: center;
         }
-      
         .footer .first-main .container .cont-list {
           text-align: center;
         }
-      
         .footer .first-main .container .cont-list .cont-list-title {
           text-align: center;
         }
-      
         .footer .first-main .container .cont-list li {
           width: auto;
           height: auto;
           padding: 8px 0px;
           text-align: center;
         }
-      
         .footer .first-main .container .cont-list .social {
           margin-top: 8px;
           justify-content: center;
         }
-      
         .footer .footer-bottom {
           width: 100%;
           height: auto;
@@ -1324,14 +1292,12 @@ body {
           gap: 32px;
           justify-content: center;
         }
-      
         .footer .footer-bottom .reserved {
           width: 100%;
           height: auto;
           text-align: center;
           margin-bottom: 16px;
         }
-      
         .footer .footer-bottom .second-reserved {
           width: 100%;
           height: auto;
@@ -1339,8 +1305,42 @@ body {
           justify-content: center;
         }
   }
-  @media(max-width:1920px){
+
+  @media(min-width:1920px){
     .navbar{
         width: 100%;
+    }
+    .sneaker{
+      position: absolute;
+      top: -10px;
+      left: 30px;
+    }
+    .sneaker-bg{
+      position: absolute;
+      top: 215px;
+      left: 1200px;
+    }
+    .best-section-bg{
+      position: absolute;
+      left: 275px;
+    }
+    .join-us-section-bg{
+      position: absolute;
+      top: 1825px;
+      left: 920px;
+    }
+    .love-us-section .top-bar-text{
+      position: absolute;
+      left: 270px;
+    }
+    .front-side{
+      left: 770px;
+    }
+    .little-card{
+      left:1328px;
+    }
+    .grow-bg{
+      position: absolute;
+      right: 1440px;
     }
 }
